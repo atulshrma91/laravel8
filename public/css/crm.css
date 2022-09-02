@@ -1,0 +1,148 @@
+.off-canvas-sidebar .auth-header .row{
+  min-height: 100vh;
+  color: #ffffff;
+}
+.page-header{
+  max-height: fit-content;
+}
+.crm-blue-background{
+  background-color: #098199;
+}
+.off-canvas-sidebar .auth-header .auth-card{
+  padding: 25% 10%;
+}
+#updateAccount input[name="username"]{
+  display: inline-block;
+  width: 40%;
+}
+#updateAccount .row .bmd-label-floating{
+  margin-left: 15px;
+}
+#accountTable tbody tr td span.material-icons{
+  vertical-align: middle;
+  font-size:  18px;
+}
+.crm-blue{
+  color: #098199;
+}
+.crm-btn-green{
+  background-color: #50c878;
+}
+.forgot-pass-link, .term-condition-link, .verify-email-text{
+  color: #098199
+}
+.sidebar a.logo-mini strong{display: none;}
+.sidebar-mini .sidebar a.logo-mini strong{display: block;}
+a.logo-normal img{
+  filter: brightness(150%);
+}
+.card .card-body .card-actions{z-index: 1059;}
+form#addContact .fileinput, form#editContact .fileinput{display: block;}
+form#addContact .fileinput .thumbnail, form#editContact .fileinput .thumbnail, form#formRecord .fileinput .thumbnail{
+  width: 145px;
+  max-width: 145px;
+}
+table#contactsTable{
+  border-spacing: 0 .5em;
+}
+table#contactsTable thead tr th, table#contactsTable tbody tr td{
+  border: none;
+}
+table#contactsTable thead tr th{
+  font-size: 14px;
+}
+table#contactsTable tbody tr td .dropdown .dropdown-item i{font-size: 16px;}
+.deal-list-sortable-connected{
+  box-shadow:  0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+.deal-list-sortable-connected .card{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 0px;
+  cursor: all-scroll;
+}
+.deal-list-sortable-connected .sortable-placeholder {
+  background: #DADADA;
+  position: relative;
+  min-height: 140px;
+  max-width: 100%;
+  text-align: center;
+}
+.deal-list-sortable-connected .sortable-placeholder:after {
+  content: "Drop here";
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  font-size: 22px;
+  color: #FFF;
+}
+table#formsTable tbody tr td .dropdown .dropdown-item i, table#formResponsesTable tbody tr td .dropdown .dropdown-item i{font-size: 16px;}
+.off-canvas-sidebar .wrapper-full-page .form-page.page-header{
+  display: block !important;
+}
+.text-break{
+  word-wrap: break-word;
+}
+.material-datatables table tbody img{
+  max-width: 100px;
+  height: auto;
+  width: auto;
+}
+nav.navbar ul.navbar-nav .dropdown-menu{
+  min-width: 20rem;
+}
+.crm-thumbnail-img{
+  max-width: 60px;
+  height: auto;
+  width: auto;
+}
+[role="crmbutton"]{cursor:pointer}
+.selectize-control .color_code_item{
+  color: white;
+}
+.selectize-control .color_code_item.black{
+  color: black;
+}
+@keyframes spinner-border {
+  to { transform: rotate(360deg); }
+}
+.spinner-border{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+}
+.spinner-border-sm{
+    width: 1rem;
+    height: 1rem;
+    border-width: .2em;
+}
+.sticky-deals{
+  max-height: 250px;
+  min-height: 200px;
+  overflow: scroll;
+  z-index: 100;
+  width: 95%;
+  margin-left: 80px;
+}
+.font-size-15{
+  font-size: 15px;
+}
+.font-size-16{
+  font-size: 16px;
+}
+form[name="extensionCheckout"] #card-element{
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+  padding: 10px;
+}
+#add-contact-Modal .modal-dialog{
+  max-width: 900px;
+}
